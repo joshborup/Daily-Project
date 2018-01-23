@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+
+.total-card-container {
+
+    background-color: grey;
+
+}
+
+.weekly-card-container{
+    color: white;
+    text-align: center;
+}
+
+.daily-card-container{
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    background-color: coral;
+    box-sizing: border-box;
+}
+
+.button-to-project {
+
+    display: block;
+    width: 20%;
+    padding: 12px;
+    box-sizing: border-box;
+    color: yellow;
+    background-color: blue;
+    margin: 0 auto;
+    border-radius: 7px;
+}
