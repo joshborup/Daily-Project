@@ -1,10 +1,15 @@
+body {
+    font-family: 'Cuprum', sans-serif;
+    text-shadow: .5px .5px 4px black;
+}
+
 h1 {
     text-align: center;
 }
 
 .total-card-container {
 
-    background-color: lightgrey;
+     background-color: lightgrey;
 
 }
 
@@ -25,17 +30,19 @@ h1 {
     text-align: center;
     width: 18%;
     padding: 20px;
-    background-color:cornflowerblue;
+    background: linear-gradient(135deg,rgba(214, 188, 75, 0.8),rgba(0,0,0,0)), url(bg-1.jpg);
     box-sizing: border-box;
     box-shadow: 4px 4px 20px black;
     border-radius: 10px;
-    text-shadow: 2px 2px 10px black;
+    text-shadow: 2px 2px 4px black;
 }
+
+/* button styling to access project, maybe need grid as resizing doesnt flow well*/
 
 .button-to-project {
 
-    display: block;
-    width: 100px;
+    display: inline-block;
+    width: 80px;
     padding: 12px;
     box-sizing: border-box;
     color:white;
